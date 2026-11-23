@@ -16,7 +16,7 @@ Checks Performed:
 6. Page contains semantic HTML5 elements.
 
 Accessibility Score:
-100
+96
 
 Conclusion:
 The webpage was tested using Google Lighthouse
