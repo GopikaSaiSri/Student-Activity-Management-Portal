@@ -1,0 +1,153 @@
+
+/* Basic styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #333;
+}
+
+/* Header */
+
+header {
+    background-color: #234477;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navigation bar */
+
+nav {
+    background-color: #dce6f2;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #234477;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+
+main {
+    width: 85%;
+    margin: 25px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #234477;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Events */
+
+article {
+    background-color: #f5f8fc;
+    padding: 15px;
+    margin: 12px 0;
+    border-left: 4px solid #234477;
+}
+
+/* Activities */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Registration form */
+
+form {
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+fieldset {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+legend {
+    color: #234477;
+    font-weight: bold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 8px;
+}
+
+/* Buttons */
+
+button {
+    background-color: #234477;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #172f52;
+}
+
+/* Announcements */
+
+aside {
+    background-color: #fff8e6;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e5d5a5;
+}
+
+/* Footer
